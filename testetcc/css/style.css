@@ -214,6 +214,36 @@ header label{
     padding: 1rem 0;
 }
 
+.home .content .download-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaço entre o QR Code e o botão */
+  }
+  
+  .home .content .download-section .imageqrc img {
+    max-width: 150px; /* Ajuste o tamanho da imagem do QR Code conforme necessário */
+    height: auto;
+  }
+  
+  .home .content .download-section .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home .content .download-section .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .home .content .download-section .btn:hover {
+    background-color: #0056b3;
+  }
+  
 
 .custom-line {
     border: none;
