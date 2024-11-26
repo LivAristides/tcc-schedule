@@ -214,7 +214,39 @@ header label{
     padding: 1rem 0;
 }
 
-
+/* Estilização da seção de download */
+.home .content .download-section {
+    display: flex; /* Flexbox para alinhar elementos lado a lado */
+    align-items: center; /* Alinha verticalmente */
+    gap: 20px; /* Espaçamento entre o QR Code e o botão */
+    margin-top: 15px; /* Margem superior */
+  }
+  
+  /* Ajusta o tamanho do QR Code */
+  .home .content .download-section .imageqrc img {
+    max-width: 150px; /* Define largura máxima */
+    height: auto; /* Mantém proporções */
+  }
+  
+  /* Estilo do botão */
+  .home .content .download-section .btn {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #007bff, #00c6ff); /* Gradiente */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Efeito ao passar o mouse */
+  .home .content .download-section .btn:hover {
+    transform: translateY(-2px); /* Elevação */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Aumenta sombra */
+  }
+  
 
 .custom-line {
     border: none;
